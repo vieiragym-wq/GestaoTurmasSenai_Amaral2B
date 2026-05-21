@@ -1,0 +1,52 @@
+/*
+  1. Use um box-sizing mais intuitivo
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remova as margens padrão e preenchimentos para melhor consistência
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  3. Definir altura da linha base e facilitar a rolagem no html
+*/
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  4. Evitar problemas com imagens, vídeos e fontes
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+  5. Evitar que textos longos estourem seus contêineres
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  6. Criar um contexto de empilhamento (stacking context) no root
+*/
+#root, #__next {
+  isolation: isolate;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
