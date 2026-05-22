@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "cores.css";
+
+@font-face {
+    font-family: dragon Ball;
+    src: url(fonts/Dragon\ Ball.ttf);
+
+}
+
+
+body{
+    color: aquamarine;
+    font-family: dragon Ball;
+
+
+}
