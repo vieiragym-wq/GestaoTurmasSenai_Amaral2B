@@ -10,8 +10,11 @@
 
 
 body{
-    color: aquamarine;
+    color: var(black);
     font-family: dragon Ball;
+    background-color: var(--racing-red);
 
-
+}
+h1,p{
+    text-align: center;
 }
